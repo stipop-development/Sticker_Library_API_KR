@@ -4,7 +4,7 @@
 </h1>
 
 
-<h4 align="center">Propel user engagement, retention, and conversion with stipop sticker API</h4>
+<h4 align="center">스티커(이모티콘) 라이브러리 API</h4>
 
 <p align="center">
   <a href="#Intro">Intro</a> •
