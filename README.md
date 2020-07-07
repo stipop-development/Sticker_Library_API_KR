@@ -25,7 +25,7 @@
 
 ![Works with Android](https://img.shields.io/badge/Works_with-Android-green?style=flat-square)
 ![Works with iOS](https://img.shields.io/badge/Works_with-iOS-blue?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/stipop-development/Stipop_Sticker_API?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/stipop-development/Sticker_Library_API?style=flat-square)
 
 > Stipop provides a powerful and flexible sticker API that enables companies to add stickers onto their apps and websites with minimum effort and maximum effect.
 
@@ -51,7 +51,7 @@ Seeing how sticker are a useful kind of media, we as a team started a platform, 
 
 ## Get started :rocket:
 
-To get started, review sections below in the 'README' files in the [Stipop_Sticker_API](https://github.com/stipop-development/Stipop_Sticker_API) repository.
+To get started, review sections below in the 'README' files in the [Sticker_Library_API](https://github.com/stipop-development/Sticker_Library_API) repository.
 
 
 
@@ -59,7 +59,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/best/:languageCode
+  /v0.1/package/best/:languageCode
 
 * **Method:**
 
@@ -131,7 +131,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/best/ko" \ --header "apikey:av03Ea0w18953er"
+  curl --location --request GET "https://bapi.stipop.io/v0.1/package/best/ko" \ --header "apikey:av03Ea0w18953er"
   ```
 
 
@@ -139,7 +139,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1/package/:packageId
+  /v0.1/package/:packageId
 
 * **Method:**
 
@@ -206,14 +206,14 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1/package/9964" \ --header "apikey:av03Ea0w18953er"
+  curl --location --request GET "https://bapi.stipop.io/v0.1/package/9964" \ --header "apikey:av03Ea0w18953er"
   ```
 
 
 ## 3) Best Package API - 1
 * **URL**
 
-  /v1.1/package/best/all
+  /v0.1.1/package/best/all
 
 * **Method:**
 
@@ -347,7 +347,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:7b841302b60302abv"
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:7b841302b60302abv"
   ```
 
 
@@ -355,7 +355,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/best/main
+  /v0.1.1/package/best/main
 
 * **Method:**
 
@@ -471,7 +471,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/best/main?pageNumber=1&pageSize=2&languageCode=en" \ 
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/best/main?pageNumber=1&pageSize=2&languageCode=en" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -480,7 +480,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/:packageId
+  /v0.1.1/package/:packageId
 
 * **Method:**
 
@@ -585,7 +585,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/198" \ 
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/198" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -594,7 +594,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/bookmark/all
+  /v0.1.1/package/bookmark/all
 
 * **Method:**
 
@@ -727,7 +727,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/bookmark/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/bookmark/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -736,7 +736,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/bookmark/main
+  /v0.1.1/package/bookmark/main
 
 * **Method:**
 
@@ -851,7 +851,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/bookmark/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/bookmark/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
@@ -860,7 +860,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/bookmark
+  /v0.1.1/package/bookmark
 
 * **Method:**
 
@@ -965,7 +965,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request POST "https://bapi.stipop.io/v1.1/package/bookmark/" \ 
+  curl --location --request POST "https://bapi.stipop.io/v0.1.1/package/bookmark/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
@@ -974,7 +974,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/bookmark
+  /v0.1.1/package/bookmark
 
 * **Method:**
 
@@ -1069,7 +1069,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request DELETE "https://bapi.stipop.io/v1.1/package/bookmark/" \ 
+  curl --location --request DELETE "https://bapi.stipop.io/v0.1.1/package/bookmark/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
   ```
 
@@ -1077,7 +1077,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/sticker/bookmark
+  /v0.1.1/package/sticker/bookmark
 
 * **Method:**
 
@@ -1186,7 +1186,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/sticker/bookmark?pageNumber=2&pageSize=5&userId=eka87AbekwAewa" \ 
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/sticker/bookmark?pageNumber=2&pageSize=5&userId=eka87AbekwAewa" \ 
        --header "apikey:7b841302b60302abv
   ```
 
@@ -1194,7 +1194,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/sticker/bookmark
+  /v0.1.1/package/sticker/bookmark
 
 * **Method:**
 
@@ -1298,7 +1298,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request POST "https://bapi.stipop.io/v1.1/package/sticker/bookmark/" \ 
+  curl --location --request POST "https://bapi.stipop.io/v0.1.1/package/sticker/bookmark/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&stickerId=38015"
   ```
 
@@ -1306,7 +1306,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/sticker/bookmark
+  /v0.1.1/package/sticker/bookmark
 
 * **Method:**
 
@@ -1401,7 +1401,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request DELETE "https://bapi.stipop.io/v1.1/package/sticker/bookmark/" \ 
+  curl --location --request DELETE "https://bapi.stipop.io/v0.1.1/package/sticker/bookmark/" \ 
        --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&stickerId=38015"
   ```
 
@@ -1409,7 +1409,7 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 
 * **URL**
 
-  /v1.1/package/sticker/search
+  /v0.1.1/package/sticker/search
 
 * **Method:**
 
@@ -1524,23 +1524,23 @@ To get started, review sections below in the 'README' files in the [Stipop_Stick
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v1.1/package/sticker/search?stickerTag=happy&pageNumber=2&pageSize=5" \ 
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/sticker/search?stickerTag=happy&pageNumber=2&pageSize=5" \ 
        --header "apikey:7b841302b60302abv"
   ```
 
 ## Announcements :loudspeaker:
-Please check out [Annoucements](https://github.com/stipop-development/Stipop_Sticker_API/wiki/Announcements) for recent changes.
+Please check out [Annoucements](https://github.com/stipop-development/Sticker_Library_API/wiki/Announcements) for recent changes.
 
 ## Opening Issues :warning:
 
 > Only use the GitHub Issues section if you discovered **issues with the code itself**. Do not mistake the Issues page as a help desk. You can ask for help at [Stack Overflow](https://stackoverflow.com/).  
 > For support, please contact <webmaster@stipop.io>.
 
-- Create a [**general issue**](https://github.com/stipop-development/Stipop_Sticker_API/issues/new?template=general.md)
+- Create a [**general issue**](https://github.com/stipop-development/Sticker_Library_API/issues/new?template=general.md)
 
 
 ## License
 
-Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Stipop_Sticker_API/blob/master/LICENSE) file.
+Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Sticker_Library_API/blob/master/LICENSE) file.
 
 
