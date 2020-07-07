@@ -131,7 +131,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v0.1/package/best/ko" \ --header "apikey:av03Ea0w18953er"
+  curl --location --request GET "https://bapi.stipop.io/v0.1/package/best/ko" \ --header "apikey:xxxxxxxxx"
   ```
 
 
@@ -206,7 +206,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v0.1/package/9964" \ --header "apikey:av03Ea0w18953er"
+  curl --location --request GET "https://bapi.stipop.io/v0.1/package/9964" \ --header "apikey:xxxxxxxxx"
   ```
 
 
@@ -347,7 +347,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 * **Sample Call:**
 
   ```curl
-  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:7b841302b60302abv"
+  curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/best/all?pageNumber=1&pageSize=1&stickerSize=2&languageCode=ko&thumbnail=1" \ --header "apikey:xxxxxxxxx"
   ```
 
 
@@ -472,7 +472,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/best/main?pageNumber=1&pageSize=2&languageCode=en" \ 
-       --header "apikey:7b841302b60302abv"
+       --header "apikey:xxxxxxxxx"
   ```
 
 
@@ -586,7 +586,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/198" \ 
-       --header "apikey:7b841302b60302abv"
+       --header "apikey:xxxxxxxxx"
   ```
 
 
@@ -728,7 +728,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/bookmark/all?pageNumber=1&pageSize=1&stickerSize=2&thumbnail=1&userId=Obu4242aE12ka10" \ 
-       --header "apikey:7b841302b60302abv"
+       --header "apikey:xxxxxxxxx"
   ```
 
 
@@ -852,7 +852,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/bookmark/main?pageNumber=1&pageSize=2&userId=989212165228b338" \ 
-       --header "apikey:7b841302b60302abv"
+       --header "apikey:xxxxxxxxx"
   ```
 
 
@@ -966,7 +966,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request POST "https://bapi.stipop.io/v0.1.1/package/bookmark/" \ 
-       --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
+       --header "apikey:xxxxxxxxx -d "userId=9aeEsa0221&packageId=127"
   ```
 
 
@@ -1070,7 +1070,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request DELETE "https://bapi.stipop.io/v0.1.1/package/bookmark/" \ 
-       --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&packageId=127"
+       --header "apikey:xxxxxxxxx -d "userId=9aeEsa0221&packageId=127"
   ```
 
 ## 10) User Bookmark Sticker - 1 API 
@@ -1187,7 +1187,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/sticker/bookmark?pageNumber=2&pageSize=5&userId=eka87AbekwAewa" \ 
-       --header "apikey:7b841302b60302abv
+       --header "apikey:xxxxxxxxx
   ```
 
 ## 11) User Bookmark Sticker - 2 API 
@@ -1299,7 +1299,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request POST "https://bapi.stipop.io/v0.1.1/package/sticker/bookmark/" \ 
-       --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&stickerId=38015"
+       --header "apikey:xxxxxxxxx -d "userId=9aeEsa0221&stickerId=38015"
   ```
 
 ## 12) User Bookmark Sticker - 3 API 
@@ -1402,7 +1402,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request DELETE "https://bapi.stipop.io/v0.1.1/package/sticker/bookmark/" \ 
-       --header "apikey:7b841302b60302abv -d "userId=9aeEsa0221&stickerId=38015"
+       --header "apikey:xxxxxxxxx -d "userId=9aeEsa0221&stickerId=38015"
   ```
 
 ## 13) Search Sticker - API 
@@ -1525,7 +1525,7 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
 
   ```curl
   curl --location --request GET "https://bapi.stipop.io/v0.1.1/package/sticker/search?stickerTag=happy&pageNumber=2&pageSize=5" \ 
-       --header "apikey:7b841302b60302abv"
+       --header "apikey:xxxxxxxxx"
   ```
 
 ## Announcements :loudspeaker:
