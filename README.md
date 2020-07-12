@@ -25,7 +25,7 @@
 
 ![Works with Android](https://img.shields.io/badge/Works_with-Android-green?style=flat-square)
 ![Works with iOS](https://img.shields.io/badge/Works_with-iOS-blue?style=flat-square)
-![GitHub issues](https://img.shields.io/github/issues/stipop-development/Sticker_Library_API?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/stipop-development/Sticker_Library_API_KR?style=flat-square)
 
 > Stipop provides a powerful and flexible sticker API that enables companies to add stickers onto their apps and websites with minimum effort and maximum effect.
 
@@ -51,7 +51,7 @@ Seeing how sticker are a useful kind of media, we as a team started a platform, 
 
 ## Get started :rocket:
 
-To get started, review sections below in the 'README' files in the [Sticker_Library_API](https://github.com/stipop-development/Sticker_Library_API) repository.
+To get started, review sections below in the 'README' files in the [Sticker_Library_API](https://github.com/stipop-development/Sticker_Library_API_KR) repository.
 
 
 
@@ -1529,18 +1529,18 @@ To get started, review sections below in the 'README' files in the [Sticker_Libr
   ```
 
 ## Announcements :loudspeaker:
-Please check out [Annoucements](https://github.com/stipop-development/Sticker_Library_API/wiki/Announcements) for recent changes.
+Please check out [Annoucements](https://github.com/stipop-development/Sticker_Library_API_KR/wiki/Announcements) for recent changes.
 
 ## Opening Issues :warning:
 
 > Only use the GitHub Issues section if you discovered **issues with the code itself**. Do not mistake the Issues page as a help desk. You can ask for help at [Stack Overflow](https://stackoverflow.com/).  
 > For support, please contact <webmaster@stipop.io>.
 
-- Create a [**general issue**](https://github.com/stipop-development/Sticker_Library_API/issues/new?template=general.md)
+- Create a [**general issue**](https://github.com/stipop-development/Sticker_Library_API_KR/issues/new?template=general.md)
 
 
 ## License
 
-Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Sticker_Library_API/blob/master/LICENSE) file.
+Stipop Sticker API is MIT licensed, as found in the [`LICENSE`](https://github.com/stipop-development/Sticker_Library_API_KR/blob/master/LICENSE) file.
 
 
